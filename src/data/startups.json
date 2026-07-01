@@ -1,0 +1,75 @@
+{
+  "startups": [
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "difficulty": "easy",
+      "valueProposition": "Escucha toda la música del mundo, cuando quieras y donde quieras, sin necesidad de comprar canciones individuales. Descubre nueva música gracias a recomendaciones personalizadas.",
+      "story": "Fundada en Suecia en 2006 por Daniel Ek y Martin Lorentzon como respuesta a la piratería musical. Popularizó el modelo freemium en la industria de la música y hoy es la plataforma de streaming de audio más grande del mundo.",
+      "curiosities": [
+        "El nombre 'Spotify' no significa nada en particular: surgió de un malentendido durante una lluvia de ideas.",
+        "Paga aproximadamente el 70% de sus ingresos a los titulares de derechos musicales.",
+        "Introdujo el concepto de 'Discover Weekly', una playlist personalizada semanal generada por algoritmos."
+      ],
+      "cards": [
+        { "id": "s-1", "type": "model", "icon": "🎧", "text": "Melómanos que quieren descubrir música", "block": "customer_segments" },
+        { "id": "s-2", "type": "model", "icon": "🎵", "text": "Catálogo masivo de canciones bajo demanda", "block": "value_proposition" },
+        { "id": "s-3", "type": "model", "icon": "🤖", "text": "Recomendaciones personalizadas por algoritmo", "block": "value_proposition" },
+        { "id": "s-4", "type": "model", "icon": "💳", "text": "Suscripción Premium mensual", "block": "revenue_streams" },
+        { "id": "s-5", "type": "model", "icon": "📢", "text": "Publicidad en la versión gratuita", "block": "revenue_streams" },
+        { "id": "s-6", "type": "model", "icon": "🏷️", "text": "Acuerdos con sellos discográficos", "block": "key_partners" },
+        { "id": "s-7", "type": "model", "icon": "📱", "text": "App móvil, web y smart devices", "block": "channels" },
+        { "id": "s-8", "type": "model", "icon": "🧠", "text": "Equipo de data science y curadores", "block": "key_resources" }
+      ]
+    },
+    {
+      "id": "airbnb",
+      "name": "Airbnb",
+      "difficulty": "medium",
+      "valueProposition": "Alójate en cualquier lugar del mundo como si fuera tu casa. Conecta con anfitriones locales y vive experiencias auténticas que un hotel tradicional no puede ofrecer, a precios competitivos.",
+      "story": "Nació en 2008 en San Francisco cuando sus fundadores alquilaron colchones inflables en su apartamento durante una conferencia. Hoy tiene millones de anfitriones en más de 220 países y transformó la industria del hospedaje.",
+      "curiosities": [
+        "El nombre original era 'AirBed & Breakfast'.",
+        "Rechazaron una inversión temprana de Fred Wilson que hoy sería una de las mayores pérdidas de oportunidad del capital de riesgo.",
+        "El logo, llamado 'Bélo', representa pertenencia."
+      ],
+      "cards": [
+        { "id": "a-1", "type": "model", "icon": "🌍", "text": "Viajeros que buscan experiencias locales", "block": "customer_segments" },
+        { "id": "a-2", "type": "model", "icon": "🏠", "text": "Anfitriones con espacios disponibles", "block": "customer_segments" },
+        { "id": "a-3", "type": "model", "icon": "🤝", "text": "Comunidad de anfitriones verificados", "block": "key_partners" },
+        { "id": "a-4", "type": "model", "icon": "💰", "text": "Comisión por cada reserva", "block": "revenue_streams" },
+        { "id": "a-5", "type": "model", "icon": "⭐", "text": "Sistema de reseñas y confianza mutua", "block": "customer_relationships" },
+        { "id": "a-6", "type": "model", "icon": "🛡️", "text": "Seguro de protección al anfitrión", "block": "value_proposition" },
+        { "id": "a-7", "type": "model", "icon": "📱", "text": "Plataforma web y app móvil", "block": "channels" },
+        { "id": "a-8", "type": "model", "icon": "💻", "text": "Tecnología de matching y pagos", "block": "key_resources" },
+        { "id": "a-9", "type": "trap", "icon": "🚚", "text": "Flota propia de vehículos de entrega" },
+        { "id": "a-10", "type": "trap", "icon": "🏭", "text": "Fábrica de mobiliario para hoteles" }
+      ]
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "difficulty": "hard",
+      "valueProposition": "Infraestructura de pagos para internet. Permite que cualquier desarrollador acepte pagos en línea con unas pocas líneas de código, sin tener que lidiar con la complejidad de bancos, tarjetas y regulaciones.",
+      "story": "Fundada en 2010 por los hermanos irlandeses Patrick y John Collison. Empezó como una API simple para desarrolladores y hoy procesa cientos de miles de millones de dólares al año para empresas de todos los tamaños.",
+      "curiosities": [
+        "El nombre inicial era '/dev/payments'.",
+        "Fue una de las primeras compañías del programa Y Combinator en superar los 100 mil millones de valoración.",
+        "Sus documentos de API son considerados una obra maestra del developer experience."
+      ],
+      "cards": [
+        { "id": "st-1", "type": "model", "icon": "👨‍💻", "text": "Startups y desarrolladores que venden online", "block": "customer_segments" },
+        { "id": "st-2", "type": "model", "icon": "⚡", "text": "API simple para aceptar pagos en minutos", "block": "value_proposition" },
+        { "id": "st-3", "type": "model", "icon": "🌐", "text": "Cobertura internacional y multi-moneda", "block": "value_proposition" },
+        { "id": "st-4", "type": "model", "icon": "💸", "text": "Comisión por transacción procesada", "block": "revenue_streams" },
+        { "id": "st-5", "type": "model", "icon": "🏦", "text": "Redes bancarias y de tarjetas", "block": "key_partners" },
+        { "id": "st-6", "type": "model", "icon": "📚", "text": "Documentación técnica excepcional", "block": "customer_relationships" },
+        { "id": "st-7", "type": "model", "icon": "🧑‍🔧", "text": "Equipo de ingeniería y compliance", "block": "key_resources" },
+        { "id": "st-8", "type": "model", "icon": "🔌", "text": "Integraciones con plataformas SaaS", "block": "channels" },
+        { "id": "st-9", "type": "trap", "icon": "🏬", "text": "Cadena de tiendas físicas propias" },
+        { "id": "st-10", "type": "trap", "icon": "📺", "text": "Publicidad masiva en televisión abierta" },
+        { "id": "st-11", "type": "event", "icon": "⚖️", "text": "Nueva regulación PSD2 en Europa: obliga a añadir autenticación de doble factor" }
+      ]
+    }
+  ]
+}
