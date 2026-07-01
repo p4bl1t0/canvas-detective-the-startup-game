@@ -163,7 +163,7 @@ function PlayPage() {
         startupGuessed: guessed === true,
       });
       finalRef.current = { score, timeSec };
-      recordResult(startup.id, score, validation.percent, timeSec, hintsUsed, nextStartupId);
+      recordResult(startup!.id, score, validation.percent, timeSec, hintsUsed, nextStartupId);
       setFinished(true);
       return;
     }
