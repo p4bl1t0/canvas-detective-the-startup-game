@@ -70,6 +70,132 @@
         { "id": "st-10", "type": "trap", "icon": "📺", "text": "Publicidad masiva en televisión abierta" },
         { "id": "st-11", "type": "event", "icon": "⚖️", "text": "Nueva regulación PSD2 en Europa: obliga a añadir autenticación de doble factor" }
       ]
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "difficulty": "medium",
+      "valueProposition": "Entretenimiento ilimitado donde y cuando quieras. Series, películas y documentales originales sin anuncios, por una cuota mensual accesible que reemplaza la televisión tradicional.",
+      "story": "Fundada en 1997 como servicio de alquiler de DVD por correo, pivotó al streaming en 2007 y revolucionó cómo consumimos contenido audiovisual. Hoy produce series y películas originales premiadas en más de 190 países.",
+      "curiosities": [
+        "Más del 80% de lo que la gente ve son recomendaciones generadas por su algoritmo.",
+        "Su primera serie original, House of Cards, costó 100 millones de dólares.",
+        "El icónico logo rojo nació de un error de impresión en las primeras versiones del diseño."
+      ],
+      "cards": [
+        { "id": "n-1", "type": "model", "icon": "🍿", "text": "Espectadores que buscan entretenimiento bajo demanda", "block": "customer_segments" },
+        { "id": "n-2", "type": "model", "icon": "📺", "text": "Catálogo masivo de series y películas on demand", "block": "value_proposition" },
+        { "id": "n-3", "type": "model", "icon": "🎬", "text": "Contenido original exclusivo (Netflix Originals)", "block": "value_proposition" },
+        { "id": "n-4", "type": "model", "icon": "💳", "text": "Suscripción mensual por planes escalonados", "block": "revenue_streams" },
+        { "id": "n-5", "type": "model", "icon": "🎥", "text": "Estudios de producción y creadores de contenido", "block": "key_partners" },
+        { "id": "n-6", "type": "model", "icon": "📱", "text": "Plataforma de streaming multi-dispositivo", "block": "channels" },
+        { "id": "n-7", "type": "model", "icon": "🧠", "text": "Algoritmos de recomendación y datos de visualización", "block": "key_resources" },
+        { "id": "n-8", "type": "model", "icon": "👤", "text": "Perfiles personalizados y auto-renovación", "block": "customer_relationships" },
+        { "id": "n-9", "type": "trap", "icon": "🎟️", "text": "Cadena de cines propios en cada ciudad" },
+        { "id": "n-10", "type": "trap", "icon": "🧸", "text": "Tiendas físicas de merchandising y souvenirs" }
+      ]
+    },
+    {
+      "id": "duolingo",
+      "name": "Duolingo",
+      "difficulty": "medium",
+      "valueProposition": "Aprende idiomas jugando, gratis y en pocos minutos al día. Lecciones cortas, gamificadas y personalizadas que se adaptan a tu ritmo, como un videojuego educativo en el bolsillo.",
+      "story": "Creada en 2011 por Luis von Ahn y Severin Hacker en Pittsburgh. Nació de la idea de democratizar el aprendizaje de idiomas usando gamificación y ciencia cognitiva. Hoy tiene cientos de millones de usuarios activos en todo el mundo.",
+      "curiosities": [
+        "Su mascota, Duo el búho, se convirtió en un meme viral por sus notificaciones insistentes.",
+        "El fundador Luis von Ahn también inventó reCAPTCHA y la plataforma reCAPTCHA.",
+        "Ofrece más de 40 idiomas, incluidos idiomas ficticios como el Klingon de Star Trek."
+      ],
+      "cards": [
+        { "id": "d-1", "type": "model", "icon": "🎓", "text": "Estudiantes casuales que quieren aprender idiomas", "block": "customer_segments" },
+        { "id": "d-2", "type": "model", "icon": "🎮", "text": "Lecciones gamificadas de 5 minutos al día", "block": "value_proposition" },
+        { "id": "d-3", "type": "model", "icon": "🎯", "text": "Adaptación al ritmo y nivel de cada usuario", "block": "value_proposition" },
+        { "id": "d-4", "type": "model", "icon": "⭐", "text": "Suscripción Super sin anuncios ni vidas limitadas", "block": "revenue_streams" },
+        { "id": "d-5", "type": "model", "icon": "📢", "text": "Publicidad en la versión gratuita", "block": "revenue_streams" },
+        { "id": "d-6", "type": "model", "icon": "🗣️", "text": "Lingüistas y expertos en pedagogía", "block": "key_partners" },
+        { "id": "d-7", "type": "model", "icon": "📱", "text": "App móvil y plataforma web", "block": "channels" },
+        { "id": "d-8", "type": "model", "icon": "🔁", "text": "Algoritmos de repetición espaciada", "block": "key_resources" },
+        { "id": "d-9", "type": "trap", "icon": "🏫", "text": "Red de academias físicas con profesores presenciales" },
+        { "id": "d-10", "type": "trap", "icon": "📚", "text": "Editorial de libros de texto impresos" }
+      ]
+    },
+    {
+      "id": "uber",
+      "name": "Uber",
+      "difficulty": "hard",
+      "valueProposition": "Transporte confiable al alcance de un toque. Conecta pasajeros con conductores cercanos en minutos, con precio transparente y pago automático desde tu móvil, sin necesidad de efectivo.",
+      "story": "Nació en 2009 en San Francisco como 'UberCab', una app para pedir limusinas de lujo. Hoy opera en cientos de ciudades y redefinió la movilidad urbana con su modelo de marketplace bilateral entre conductores y pasajeros.",
+      "curiosities": [
+        "Su nombre proviene de 'über', palabra alemana que significa 'super' o 'encima de'.",
+        "El primer viaje oficial costó solo 5 dólares en las calles de San Francisco.",
+        "Uber Eats nació casi por accidente cuando un ejecutivo pidió comida durante una reunión de estrategia."
+      ],
+      "cards": [
+        { "id": "u-1", "type": "model", "icon": "🧳", "text": "Pasajeros urbanos que necesitan transporte rápido", "block": "customer_segments" },
+        { "id": "u-2", "type": "model", "icon": "🚗", "text": "Conductores independientes con vehículo propio", "block": "customer_segments" },
+        { "id": "u-3", "type": "model", "icon": "📍", "text": "Viaje bajo demanda con precio estimado al instante", "block": "value_proposition" },
+        { "id": "u-4", "type": "model", "icon": "💰", "text": "Comisión por cada viaje completado", "block": "revenue_streams" },
+        { "id": "u-5", "type": "model", "icon": "🤝", "text": "Conductores verificados en la plataforma", "block": "key_partners" },
+        { "id": "u-6", "type": "model", "icon": "📲", "text": "App móvil con GPS y matching en tiempo real", "block": "channels" },
+        { "id": "u-7", "type": "model", "icon": "🗺️", "text": "Tecnología de rutas, pagos y reputación", "block": "key_resources" },
+        { "id": "u-8", "type": "model", "icon": "⭐", "text": "Sistema de calificaciones bidireccional", "block": "customer_relationships" },
+        { "id": "u-9", "type": "trap", "icon": "🚌", "text": "Flota propia de vehículos con choferes empleados" },
+        { "id": "u-10", "type": "trap", "icon": "🏭", "text": "Fábrica propia de automóviles eléctricos" },
+        { "id": "u-11", "type": "event", "icon": "⚖️", "text": "Nueva ley obliga a clasificar conductores como empleados en una ciudad clave" }
+      ]
+    },
+    {
+      "id": "shopify",
+      "name": "Shopify",
+      "difficulty": "hard",
+      "valueProposition": "Crea tu tienda online en minutos sin conocimientos técnicos. Todo lo que necesitas para vender, cobrar y gestionar tu negocio en internet, en un solo lugar y con escalabilidad global.",
+      "story": "Fundada en 2006 en Canadá como una tienda de equipamiento para snowboard. Sus fundadores no encontraron una buena herramienta para vender online y decidieron construirla. Hoy impulsa millones de comercios en todo el mundo.",
+      "curiosities": [
+        "El nombre original del proyecto era Snowdevil, la tienda de tablas de nieve.",
+        "Aloja más del 10% del comercio electrónico en Estados Unidos.",
+        "Su ecosistema de partners incluye miles de desarrolladores y agencias especializadas."
+      ],
+      "cards": [
+        { "id": "sh-1", "type": "model", "icon": "🛍️", "text": "Emprendedores y pequeños negocios que venden online", "block": "customer_segments" },
+        { "id": "sh-2", "type": "model", "icon": "🏪", "text": "Tienda online lista sin programar una línea de código", "block": "value_proposition" },
+        { "id": "sh-3", "type": "model", "icon": "💳", "text": "Pagos, inventario y envíos integrados", "block": "value_proposition" },
+        { "id": "sh-4", "type": "model", "icon": "📅", "text": "Cuota mensual por plan + comisión por transacción", "block": "revenue_streams" },
+        { "id": "sh-5", "type": "model", "icon": "🧩", "text": "Desarrolladores de apps y temas para la tienda", "block": "key_partners" },
+        { "id": "sh-6", "type": "model", "icon": "🔌", "text": "Marketplace de apps y extensiones", "block": "channels" },
+        { "id": "sh-7", "type": "model", "icon": "☁️", "text": "Plataforma cloud escalable y soporte técnico", "block": "key_resources" },
+        { "id": "sh-8", "type": "model", "icon": "🎓", "text": "Academia, soporte 24/7 y comunidad de merchants", "block": "customer_relationships" },
+        { "id": "sh-9", "type": "trap", "icon": "📦", "text": "Red de almacenes físicos propios para fulfillment global" },
+        { "id": "sh-10", "type": "trap", "icon": "🏬", "text": "Cadena de tiendas retail con vendedores en persona" },
+        { "id": "sh-11", "type": "event", "icon": "🛒", "text": "Black Friday: el tráfico se triplica y exige escalar la infraestructura de pagos" }
+      ]
+    },
+    {
+      "id": "tesla",
+      "name": "Tesla",
+      "difficulty": "expert",
+      "valueProposition": "Acelera la transición del mundo hacia el transporte sostenible. Coches eléctricos de alto rendimiento con tecnología de punta, actualizables por software como un smartphone en las cuatro ruedas.",
+      "story": "Fundada en 2003 por un grupo de ingenieros, con Elon Musk como inversor principal y cara visible. Empezó con un roadster eléctrico de lujo y escaló hasta democratizar los vehículos eléctricos con el Model 3, el coche más vendido del mundo en 2023.",
+      "curiosities": [
+        "El nombre rinde homenaje al inventor serbio-estadounidense Nikola Tesla.",
+        "Sus coches reciben actualizaciones de software over-the-air que mejoran el rendimiento.",
+        "También fabrica baterías, paneles solares y sistemas de almacenamiento energético."
+      ],
+      "cards": [
+        { "id": "t-1", "type": "model", "icon": "🚘", "text": "Compradores premium de vehículos eléctricos", "block": "customer_segments" },
+        { "id": "t-2", "type": "model", "icon": "🌱", "text": "Cero emisiones sin sacrificar rendimiento", "block": "value_proposition" },
+        { "id": "t-3", "type": "model", "icon": "📡", "text": "Actualizaciones de software over-the-air", "block": "value_proposition" },
+        { "id": "t-4", "type": "model", "icon": "💵", "text": "Venta directa de vehículos y soluciones de energía", "block": "revenue_streams" },
+        { "id": "t-5", "type": "model", "icon": "🔋", "text": "Proveedores de baterías y componentes clave", "block": "key_partners" },
+        { "id": "t-6", "type": "model", "icon": "🏢", "text": "Tiendas propias y web de pedidos directos", "block": "channels" },
+        { "id": "t-7", "type": "model", "icon": "🏭", "text": "Gigafactories y propiedad intelectual en baterías", "block": "key_resources" },
+        { "id": "t-8", "type": "model", "icon": "💬", "text": "Comunidad de fans y programa de referidos", "block": "customer_relationships" },
+        { "id": "t-9", "type": "model", "icon": "⚙️", "text": "Diseño y manufactura de vehículos eléctricos", "block": "key_activities" },
+        { "id": "t-10", "type": "model", "icon": "🔬", "text": "I+D en baterías y software de conducción autónoma", "block": "key_activities" },
+        { "id": "t-11", "type": "model", "icon": "💸", "text": "Inversión en gigafactories y red de carga", "block": "cost_structure" },
+        { "id": "t-12", "type": "trap", "icon": "🤵", "text": "Red de concesionarios tradicionales con intermediarios" },
+        { "id": "t-13", "type": "trap", "icon": "📺", "text": "Campañas masivas de publicidad en televisión abierta" },
+        { "id": "t-14", "type": "event", "icon": "🔧", "text": "Recall masivo de baterías: obliga a reorganizar la cadena de suministro" }
+      ]
     }
   ]
 }
